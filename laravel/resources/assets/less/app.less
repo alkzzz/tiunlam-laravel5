@@ -1,0 +1,122 @@
+@import "bootstrap/bootstrap";
+
+@btn-font-weight: 300;
+@font-family-sans-serif: "Ubuntu", Helvetica, Arial, sans-serif;
+
+@warna-1 : #000000;
+@warna-2 : #00e6e6;
+@warna-3 : #ffffff;
+@warna-link : lighten(@warna-2, 30%);
+
+.gambar-header {
+    width: 100%;
+    height: 400px;
+}
+
+// warna link
+@link-color: @warna-link;
+@link-hover-color: lighten(@warna-link, 5%);
+
+#bahasa {
+  background-color: transparent;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+@navbar-inverse-brand-color:                @warna-3;
+@navbar-inverse-brand-hover-color:          @warna-2;
+@navbar-inverse-brand-hover-bg:             transparent;
+
+@dropdown-bg:                    @warna-1;
+@dropdown-link-color:            @warna-3;
+@dropdown-link-hover-color:      @warna-1;
+@dropdown-link-hover-bg:         @warna-2;
+
+.btn-default:hover {
+    background-color: @warna-2;
+}
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+    background-color: @warna-2;
+    color: @warna-1;
+    }
+
+.nav-tabs > li > a:hover {
+  background-color: @warna-2;
+  color: @warna-1;
+}
+
+//Login dan Register CSS
+.panel {
+  margin-top: 65px;
+}
+
+.panel-login {
+  margin-top: 100px;
+}
+
+.panel-default > .panel-heading {
+  background-color: @warna-2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.panel-body {
+  background-color: @warna-1;
+}
+
+.carousel-caption
+{
+    color: @warna-1;
+    background: rgba(255,255,255,0.4); 
+}
+
+
+//pagination
+@pagination-color:                     @brand-primary;
+@pagination-hover-color:               @brand-primary;
+
+//------
+
+@body-bg:               @warna-1;
+
+@text-color:            @warna-3;
+
+@navbar-margin-bottom: 0px;
+
+@navbar-border-radius: 0px;
+
+@navbar-inverse-bg:                         lighten(@warna-1, 15%);
+
+@navbar-inverse-link-color:                 @warna-3;
+@navbar-inverse-link-hover-color:           @warna-1;
+@navbar-inverse-link-hover-bg:              @warna-2;
+@navbar-inverse-link-active-color:          @warna-1;
+@navbar-inverse-link-active-bg:             lighten(@warna-2, 7.5%);
+@navbar-inverse-link-disabled-color:        darken(@warna-3, 40%);
+@navbar-inverse-link-disabled-bg:           lighten(@warna-1, 15%);
+
+.navbar-inverse .navbar-nav > .active > a {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-weight: bold;
+  &:hover{
+    background-color: @warna-2;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > .disabled > a:hover {
+    font-weight: normal;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+

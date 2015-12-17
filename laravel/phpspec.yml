@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: contoh
+        psr4_prefix: contoh
+        src_path: app
